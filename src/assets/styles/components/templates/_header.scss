@@ -1,0 +1,108 @@
+.headerParent {
+    background-image: url(../../../images/moon4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+} 
+.headerParentActive {
+    background-image: url(../../../images/moon1.jpg);
+
+}
+.header {
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    overflow-x:hidden;
+    padding-top: 100px;
+
+
+}
+.header__img {
+    width: 400px;
+}
+.header-star {
+    position: absolute;
+    width: 40px;
+    top: 3px;
+    right: 50px;
+}
+.header__left {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: space-between;
+
+}
+.header__left-text {
+    text-align: start;
+    color: rgb(22, 111, 183);
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.header__left-active {
+    color: rgb(243, 225, 173);
+}
+.header__left-active .header-left-job {
+    color: rgb(0, 255, 8);
+
+}
+.header-left-job {
+    color: gold;
+    display: inline-block;
+    margin: 9px 0;
+}
+.header__left-active .header-left-tech {
+    color: rgb(0, 255, 8);
+
+}
+.header-left-tech {
+    color: rgb(229, 94, 16);
+}
+.header__right {
+    width: 40%;
+}
+
+.lang {
+    position: absolute;
+    top: 18px;
+    left: 50px;
+    text-align: start;
+    
+}
+.lang-text {
+    padding: 6px;
+    border-radius: 6px;
+    background:  rgb(229, 94, 16);
+    color: white;
+    cursor: pointer;
+
+}
+.lang-modal {
+    margin-top: 8px;
+    border-radius: 4px;
+    background: white;
+    text-align: center;
+    width: 100px;
+    visibility: hidden;
+}
+.lang-modalActive {
+    visibility: visible;
+}
+.lang-modal li {
+   font-weight: 500;
+   padding: 3px 0;
+   list-style: none;
+}
+.lang-modal li:hover {
+    background: #929090;
+}
+@media screen and (max-width: 1000px) {
+    .header__left-text {
+        font-size: 32px;
+    }
+  }
