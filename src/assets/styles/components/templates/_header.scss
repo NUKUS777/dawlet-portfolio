@@ -102,6 +102,12 @@
 }
 .lang-modal li:hover {
     background: #929090;
+    cursor: pointer;
+}
+.lang-modal-flag {
+    width: 27px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 @media screen and (max-width: 1000px) {
     .header__left-text {
