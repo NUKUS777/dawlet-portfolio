@@ -89,9 +89,11 @@
     text-align: center;
     width: 100px;
     visibility: hidden;
+    transition:ease-in-out 0.1s;
 }
 .lang-modalActive {
     visibility: visible;
+
 }
 .lang-modal li {
    font-weight: 500;
