@@ -36,7 +36,6 @@ function Footer() {
       <h1>GGG</h1>
       <h1>GGG</h1>
       <h1>GGG</h1>
-      <h1>GGG</h1>
     </Container>
   )
 }
