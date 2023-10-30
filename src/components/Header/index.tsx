@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+
+import Navbar from "../Navbar";
 
 interface HeaderProps {
   title: string;
@@ -6,10 +8,13 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
-    <header>
-      <h1>{title}</h1>
-    </header>
+    <>
+      <Navbar />
+      <header>
+        <h1>{title}</h1>
+      </header>
+    </>
   );
-}
+};
 
 export default Header;
