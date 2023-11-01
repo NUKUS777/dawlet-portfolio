@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header title="My App Header" />
+      <Header title="My Portfolio" />
       <Footer />
     </>
   );
