@@ -9,15 +9,15 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
-    <>
+    <Div>
       <Navbar />
       <header>
         <h1>{title}</h1>
       </header>
-    </>
+    </Div>
   );
 };
-const Div = styled.div`
+const Div = styled.div `
   margin:0 auto;
 `
 
