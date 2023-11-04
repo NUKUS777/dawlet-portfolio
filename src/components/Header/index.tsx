@@ -20,6 +20,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
 const Div = styled.div `
   margin:0 auto;
   padding: 0;
+  max-width:1200px;
 `
 
 export default Header;
