@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styled from "styled-components";
 import Navbar from "../Navbar";
-import avatar from '../../assets/images/5021330.png';
+import avatar from '../../assets/images/sticker.webp';
+import './dd.css'
+
 
 const Header = () => {
   const name = 'DAWLET KENESBAEV';
@@ -47,8 +49,8 @@ const Header = () => {
         <Navbar />
         <Head>
           <div className="text">
-            <h1>I am <span>{displayedName}</span></h1>
-            <p>
+            <h1 className='title'>I am <span>{displayedName}</span></h1>
+            <p className='para'>
               Lorem ipsum dolor sit amet consectetur
               adipisicing elit. Ratione amet reiciendis
               adipisci quisquam, quod explicabo
@@ -73,8 +75,12 @@ const Head = styled.div`
   .text {
     max-width: 470px;
     height: 200px;
-    background: red;
     padding: 30px 10px;
+  }
+  .title {
+    font-weight:600;
+    font-size:34px;
+
   }
 `;
 
