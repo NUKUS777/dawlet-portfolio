@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styled from "styled-components";
 import Navbar from "../Navbar";
 import avatar from '../../assets/images/sticker.webp';
+
+
 import './dd.css'
 
 
