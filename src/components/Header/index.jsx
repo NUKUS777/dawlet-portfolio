@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 import avatar from '../../assets/images/sticker.webp';
 
 
-import './dd.css'
+import './index.css'
 
 
 const Header = () => {
