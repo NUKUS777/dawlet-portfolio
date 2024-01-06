@@ -6,12 +6,13 @@ body {
     font-family: 'Inconsolata', monospace;
     box-sizing: border-box;
 }
-.light-mode {
-    background: white;
-    color:#070707;
-}
-  
-.dark-mode {
-    background: black;
-    color: white;
+.motion {
+    display: block;
+    width: 1px;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    @media (max-width: 630px) {
+        font-size: 33px;
+ }  
 }
