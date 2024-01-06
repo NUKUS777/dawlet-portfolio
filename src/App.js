@@ -3,8 +3,7 @@
 
 import Footer from './components/footer'
 import Navbar from './components/navbar'
-import Header from './components/header';
-
+import Home from './components/home';
 
 
 import './App.css';
@@ -12,11 +11,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Footer />
-    </div>
+       <div id="App">
+        <Navbar />
+        <Home />
+        <Footer />
+      </div>
+ 
+    
   );
 }
 
