@@ -83,6 +83,7 @@ const Slide = styled.div`
     height:130px;
     margin:14px 12px;
     h3 {
+      font-weight:500;
       margin-top: 10px; 
       font-size:20px;
       @media (max-width: 930px) {

@@ -32,6 +32,7 @@ const Nav = styled.div`
   width:100%;
   height:73px;
   position:fixed;
+  z-index:100;
   background:white;
   .active {
     transform: translateX(0);
